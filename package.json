@@ -7,6 +7,10 @@
     "Myanmar",
     "Timber"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/phothinmg/myanma-timber.git"
+  },
   "author": "Pho Thin Maung",
   "license": "MIT",
   "devDependencies": {
