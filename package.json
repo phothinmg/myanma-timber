@@ -1,0 +1,15 @@
+{
+  "name": "myanma-timber-claculation",
+  "version": "1.0.0",
+  "description": "Myanma Timber Log and Lumber Volume Calculation",
+  "main": "./src/index.js",
+  "keywords": [
+    "Myanmar",
+    "Timber"
+  ],
+  "author": "Pho Thin Maung",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.2.2"
+  }
+}
