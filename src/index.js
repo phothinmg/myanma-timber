@@ -7,7 +7,7 @@
 
 class Lumber {
     static toString (){
-        var str = ['Feet','Cubic Feet','Tons','Ton','Kyats']
+        var str = ['feet','cubic feet','tons','ton','kyats']
         return str
     }
 /**
@@ -83,7 +83,7 @@ static ton(x, y, l, t) {
 };
 class TimberLog{
     static toString (){
-        var str = ['Hoppus Cube','Hoppus Ton']
+        var str = ['hoppus cubic feet','hoppus ton']
         return str
     }
 /**
@@ -172,14 +172,12 @@ class Translate {
             ["7","၇"],
             ["8","၈"],
             ["9","၉"],
-            ["Feet","ပေ"],
-            ["Cubic Feet","ကုဗပေ"],
-            ["Tons","ကုဗတန်"],
-            ["Ton","ကုဗတန်"],
-            ["Kyats","ကျပ်"],
-            ["Cube","ကုဗပေ"],
-            ["Hoppus "," ဟောပါစ်"],
-
+            ["feet","ပေ"],
+            ["cubic","ကုဗ"],
+            ["tons","ကုဗတန်"],
+            ["ton","ကုဗတန်"],
+            ["kyats","ကျပ်"],
+            ["hoppus"," ဟောပါစ်"],
         ]
     }
 };
@@ -201,7 +199,7 @@ const mmTranslate = (content) => {
  * 
  * @param {number} ton - The ton value.
  * @param {number} price - The price value.
- * @param {number|string} t - The type value. If it's a number, it will be treated as 0. If it's a string, it will be treated as 1.
+ * @param {OutputFormat} t - The type value. If it's a number, it will be treated as 0. If it's a string, it will be treated as 1.
  * @returns {string} - The cash value based on the given ton, price, and type.
  */
 const cashValue = (ton, price, t) => {

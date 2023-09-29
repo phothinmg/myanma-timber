@@ -70,8 +70,8 @@ export function mmTranslate(content: string | number): string | number;
  *
  * @param {number} ton - The ton value.
  * @param {number} price - The price value.
- * @param {number|string} t - The type value. If it's a number, it will be treated as 0. If it's a string, it will be treated as 1.
+ * @param {OutputFormat} t - The type value. If it's a number, it will be treated as 0. If it's a string, it will be treated as 1.
  * @returns {string} - The cash value based on the given ton, price, and type.
  */
-export function cashValue(ton: number, price: number, t: number | string): string;
+export function cashValue(ton: number, price: number, t: OutputFormat): string;
 //# sourceMappingURL=index.d.ts.map
