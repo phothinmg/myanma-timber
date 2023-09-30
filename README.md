@@ -141,7 +141,7 @@ ton/tons
 p = market price of one ton of lumber or timber log.
 t(optional) -- default("number")
 Output
-Hoppus Ton
+Cash Amount
 t = "number" -- output number
 t = "string" -- output string
 */
