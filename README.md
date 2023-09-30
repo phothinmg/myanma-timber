@@ -83,6 +83,75 @@ t = "string" -- output string
 
 ### Timber Log
 
+> For timber log we(Myanmar) still use [Hoppus Ton ](https://en.wikipedia.org/wiki/Hoppus#cite_note-2).
+
+Mid-Girth = Take the middle of a timber log, e.g., 6' 9" in feet and inches.
+
+mgf = Mid-girth in feet(eg. 6')
+
+mgi = Mid-girth in inches(eg. 9")
+
+l = Length of a timber log in feet.
+
+t = type of output , string{"number" | "string"} -- default("number")
+
+#### 1.Hoppus Cube
+
+```javascript
+
+const x = TimberLog.hoppusCube(mgf,mgi,l,t);
+/* 
+Input 
+mgf , mgi , l
+t(optional) -- default("number")
+Output
+Hoppus Cube -- (Cubic Feet)
+t = "number" -- output number
+t = "string" -- output string
+*/
+
+```
+
+#### 2.Hoppus Ton
+
+```javascript
+
+const x = TimberLog.hoppusTon(mgf,mgi,l,t);
+/* 
+Input 
+mgf , mgi , l
+t(optional) -- default("number")
+Output
+Hoppus Ton
+t = "number" -- output number
+t = "string" -- output string
+*/
+
+
+```
+
+### Calculation of cash amount
+
+```javascript
+
+const x = cashValue(ton/tons,p,t);
+/* 
+Input 
+ton/tons 
+p = market price of one ton of lumber or timber log.
+t(optional) -- default("number")
+Output
+Hoppus Ton
+t = "number" -- output number
+t = "string" -- output string
+*/
+
+```
+
+
+
+
+
 
 
 
