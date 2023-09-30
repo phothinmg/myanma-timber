@@ -10,6 +10,15 @@ npm install @phothinmg/myanma-timber
 
 ```
 
+### Deno
+
+```javascript
+
+import { Lumber,TimberLog,mmTranslate,cashValue } from 'https://esm.sh/gh/phothinmg/myanma-timber@b6edcca6d1';
+
+```
+
+
 ## Usage
 
 ```javascript
