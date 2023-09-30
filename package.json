@@ -1,6 +1,6 @@
 {
   "name": "@phothinmg/myanma-timber",
-  "version": "1.0.0",
+  "version": "1.2.0",
   "description": "Myanma Timber Log and Lumber Volume Calculation",
   "main": "./src/index.js",
   "keywords": [
