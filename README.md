@@ -148,7 +148,7 @@ t = "string" -- output string
 
 ```
 
-#### Translate to Burmese
+### Translate to Burmese
 
 ```javascript
 
@@ -161,6 +161,10 @@ Result in burmese
 */
 
 ```
+
+## LICENSE
+
+[MIT](https://github.com/phothinmg/myanma-timber/blob/main/LICENSE)
 
 
 
