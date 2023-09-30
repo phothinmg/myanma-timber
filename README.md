@@ -148,6 +148,20 @@ t = "string" -- output string
 
 ```
 
+#### Translate to Burmese
+
+```javascript
+
+const x = mmTranslate(result);
+/* 
+Input 
+Result from each calculation above
+Output
+Result in burmese
+*/
+
+```
+
 
 
 
