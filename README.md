@@ -10,6 +10,12 @@ npm install @phothinmg/myanma-timber
 
 ```
 
+```bash
+
+yarn add @phothinmg/myanma-timber
+
+```
+
 ### Deno
 
 ```javascript
