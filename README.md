@@ -6,30 +6,30 @@
 Install from the command line:
 
 ```bash
-npm install @phothinmg/myanma-timber
+npm install myanma-timber
 
 ```
 
 ```bash
 
-yarn add @phothinmg/myanma-timber
+yarn add myanma-timber
 
 ```
 
-### Deno
+<!-- ### Deno
 
 ```javascript
 
 import { Lumber,TimberLog,mmTranslate,cashValue } from 'https://esm.sh/gh/phothinmg/myanma-timber@b6edcca6d1';
 
-```
+``` -->
 
 
 ## Usage
 
 ```javascript
 
-import { Lumber,TimberLog,mmTranslate,cashValue } from '@phothinmg/myanma-timber';
+import { Lumber,TimberLog,mmTranslate,cashValue } from 'myanma-timber';
 
 ```
 
