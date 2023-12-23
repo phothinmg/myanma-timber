@@ -72,13 +72,13 @@ export default function App(){
             <br></br>
             <div className="b">
                 <span>ဗျက်</span>
-                <input value={x} onChange={handleInputChangeX} placeholder={'လက်မ '}></input>
+                <input value={x} onChange={handleInputChangeX} placeholder={'လက်မ '} name="d1"></input>
                 <span> ဒု </span>
-                <input value={y} onChange={handleInputChangeY} placeholder={'လက်မ '}></input>
+                <input value={y} onChange={handleInputChangeY} placeholder={'လက်မ '} name="d2"></input>
                 <span>ပေရှည် </span>
-                <input value={l1} onChange={handleInputChangeL1} placeholder={'ပေ '}></input>
+                <input value={l1} onChange={handleInputChangeL1} placeholder={'ပေ '} name="d3"></input>
                 <span>စျေးနှုန်း</span>
-                <input value={p1} onChange={handleInputChangeP1} placeholder={'ကျပ်'}></input>
+                <input value={p1} onChange={handleInputChangeP1} placeholder={'ကျပ်'} name="amount"></input>
             </div>
            
             <p>သစ်လုံး</p>
@@ -88,13 +88,13 @@ export default function App(){
             <br></br>
             <div className="b">
                 <span>လုံးပါတ်</span>
-                <input value={mgf} onChange={handleInputChangeMGF} placeholder={'ပေ '}></input>
+                <input value={mgf} onChange={handleInputChangeMGF} placeholder={'ပေ '} name="lp"></input>
                 <span>လုံးပါတ်</span>
-                <input value={mgi} onChange={handleInputChangeMGI} placeholder={'လက်မ '}></input>
+                <input value={mgi} onChange={handleInputChangeMGI} placeholder={'လက်မ '} name="lp-in"></input>
                 <span>ပေရှည်</span>
-                <input value={l2} onChange={handleInputChangeL2} placeholder={'ပေ '}></input>
+                <input value={l2} onChange={handleInputChangeL2} placeholder={'ပေ '} name="len"></input>
                 <span>စျေးနှုန်း</span>
-                <input value={p2} onChange={handleInputChangeP2} placeholder={'ကျပ်'}></input>
+                <input value={p2} onChange={handleInputChangeP2} placeholder={'ကျပ်'} name="amount"></input>
             </div>
         </div>
     )

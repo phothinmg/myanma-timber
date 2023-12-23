@@ -16,9 +16,6 @@
     "type": "git",
     "url": "https://github.com/phothinmg/myanma-timber.git"
   },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
-  },
   "author": "Pho Thin Maung",
   "license": "MIT",
   "devDependencies": {
